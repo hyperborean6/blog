@@ -1,8 +1,17 @@
 # Site settings
 title: "Your Blog"
 description: "A collection of thoughts and insights"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. https://yourusername.github.io
+
+# IMPORTANT: Set baseurl based on your repository name
+# If your repo is named "username.github.io", leave baseurl as ""
+# If your repo is named something else (project site), set baseurl to "/repo-name"
+# Example: baseurl: "/taor-blog"
+baseurl: "" # Change this to "/your-repo-name" if not using username.github.io
+
+# Set your full site URL
+# For user/organization site: "https://yourusername.github.io"
+# For project site: "https://yourusername.github.io" (baseurl handles the path)
+url: "https://hyperborean6.github.io/blog" # Update with your GitHub username
 
 # Build settings
 markdown: kramdown
@@ -24,6 +33,9 @@ exclude:
 # Pagination
 paginate: 10
 paginate_path: "/page:num/"
+
+# Permalink structure (use date-based for better compatibility)
+permalink: /:year/:month/:day/:title/
 
 # Author information
 author:
