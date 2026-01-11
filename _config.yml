@@ -6,12 +6,12 @@ description: "A collection of thoughts and insights"
 # If your repo is named "username.github.io", leave baseurl as ""
 # If your repo is named something else (project site), set baseurl to "/repo-name"
 # Example: baseurl: "/taor-blog"
-baseurl: "" # Change this to "/your-repo-name" if not using username.github.io
+baseurl: "/blog" # Set to your repository name (without username.github.io)
 
 # Set your full site URL
 # For user/organization site: "https://yourusername.github.io"
 # For project site: "https://yourusername.github.io" (baseurl handles the path)
-url: "https://hyperborean6.github.io/blog" # Update with your GitHub username
+url: "https://hyperborean6.github.io" # Your GitHub Pages domain (without /blog)
 
 # Build settings
 markdown: kramdown
