@@ -5,3 +5,20 @@ _site
 vendor
 .bundle
 Gemfile.lock
+
+# YouTube automation outputs
+youtube_output/
+output/
+youtube-content/
+*.mp3
+*.mp4
+temp_bg.png
+token.pickle
+client_secrets.json
+*.pickle
+
+# Python app hosting
+python-apps/
+
+# Memes
+memes/

@@ -1,6 +1,6 @@
 # Site settings
-title: "Your Blog"
-description: "A collection of thoughts and insights"
+title: "My Book (extended into a blog)"
+description: "Expanding on ideas from my book"
 
 # IMPORTANT: Set baseurl based on your repository name
 # If your repo is named "username.github.io", leave baseurl as ""
@@ -39,8 +39,8 @@ permalink: /:year/:month/:day/:title/
 
 # Author information
 author:
-  name: "Your Name"
-  email: "your.email@example.com"
+  name: "hyperborean"
+  email: "hyperborean628@proton.me"
 
 # Social links (update these with your actual links)
 social:
