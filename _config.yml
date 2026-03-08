@@ -13,6 +13,12 @@ baseurl: "/blog" # Set to your repository name (without username.github.io)
 # For project site: "https://yourusername.github.io" (baseurl handles the path)
 url: "https://hyperborean6.github.io" # Your GitHub Pages domain (without /blog)
 
+# Navigation links (order matters)
+header_pages:
+  - book.md
+  - writing.md
+  - about.md
+
 # Build settings
 markdown: kramdown
 theme: minima
